@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Bodrie - Dobromir Kirov :)
 - 👀 I’m interested in JavaScript, Web Development, ReactJS
-- 🌱 I’m currently learning CSS and other...
+- 🌱 I’m currently learning CSS and other related...
 - 📫 How to reach me kirov0407@gmail.com
 
 <!---
