@@ -21,6 +21,7 @@ import { MESSAGES } from '../constants/constants.js';
 import { PATHS } from '../constants/constants.js';
 import { ConfigError } from '../errors/errors.js';
 import { GenerationError } from '../errors/errors.js';
+import { generateDisclaimerNote } from '../templates/readme/disclaimer.js';
 
 /**
  * Orchestrates the entire GitHub stats generation process
@@ -370,6 +371,8 @@ ${generateConnect()}
 ${generateStatsSection()}
 
 ${generateLanguagesAndTools()}
+
+${generateDisclaimerNote()}
 `;
     await FileUtils.writeFile(this.#config.readmePath, readmeContent);
     console.log(MESSAGES.README_GENERATED);
