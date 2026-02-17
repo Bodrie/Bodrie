@@ -225,7 +225,7 @@
       
       <g transform="translate(30, 110)">
          <text class="chart-sub" y="0">Avg / Day</text>
-         <text class="chart-value" y="25" font-size="20">0.4</text>
+         <text class="chart-value" y="25" font-size="20">0.8</text>
          
          <text class="chart-sub" y="60">Most Active</text>
          <text class="chart-value" y="85" font-size="20" fill="#fbbf24">Monday</text>

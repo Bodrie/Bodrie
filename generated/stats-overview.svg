@@ -126,7 +126,7 @@
       <!-- Fixed: Removed animation class from header to ensure visibility -->
       <g>
         <text x="25" y="35" class="header">📊 GitHub Overview</text>
-        <text x="25" y="54" class="subheader">Aug 27, 2020 - Feb 17, 2026</text>
+        <text x="25" y="54" class="subheader">May 24, 2023 - Feb 17, 2026</text>
       </g>
 
       
