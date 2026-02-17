@@ -21,7 +21,7 @@ Check out the auto generated github pages as well
   <a href="mailto:dobromir.kirov@proton.me" target="_blank">
     <img align="center" src="https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge" alt="proton" height="30"  />
   </a>
-  <a href="https://github.com/petarzarkov" target="_blank">
+  <a href="https://github.com/Bodrie" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github" height="30"  />
   </a>
 </p>
@@ -107,4 +107,5 @@ Check out the auto generated github pages as well
     </p>
     <a href="https://github.com/petarzarkov" target="_blank">
         <img align="center" src="https://avatars.githubusercontent.com/u/46219231?v=4" alt="pepe" height="40" width="40" />
+        <img align="center" src="https://img.shields.io/badge/Petar%20Zarkov-blue?logo=github&style=for-the-badge" />
     </a>
