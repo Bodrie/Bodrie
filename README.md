@@ -12,20 +12,14 @@ Check out the auto generated github pages as well
 
 <h3 align="left">📬 Connect with Me:</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/☕-petar-zarkov-7989a670" target="_blank">
+  <a href="https://www.linkedin.com/in/d-kirov/" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" />
   </a>
-  <a href="https://twitter.com/flaeryw" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" />
+  <a href="mailto:kirov0407@gmail.com" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="30"  />
   </a>
-  <a href="https://www.youtube.com/@RustBeats" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="youtube" height="30" width="40" />
-  </a>
-  <a href="http://petarzarkov.com/" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=react&logoColor=white" alt="portfolio" height="30"  />
-  </a>
-  <a href="mailto:pzarko1@gmail.com" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email" height="30"  />
+  <a href="mailto:dobromir.kirov@proton.me" target="_blank">
+    <img align="center" src="https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge" alt="proton" height="30"  />
   </a>
   <a href="https://github.com/petarzarkov" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github" height="30"  />
