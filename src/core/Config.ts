@@ -9,14 +9,15 @@ import { ConfigError } from '../errors/errors.js';
 export class Config {
   static #instance: Config;
   #githubTokens: string;
-  #githubUsername: string;
+  #githubUsernames: string;
   #generatedDir: string;
   #readmePath: string;
   #indexPath: string;
 
   private constructor() {
     this.#githubTokens = process.env.GH_STATS_TOKENS || '';
-    this.#githubUsername = process.env.GH_USERNAME || DEFAULTS.USERNAME;
+    this.#githubUsernames =
+      process.env.GH_USERNAMES || process.env.GH_USERNAME || DEFAULTS.USERNAME;
     this.#generatedDir = PATHS.GENERATED_DIR;
     this.#readmePath = PATHS.README;
     this.#indexPath = PATHS.INDEX_HTML;
@@ -30,11 +31,15 @@ export class Config {
   }
 
   get githubTokens(): string[] {
-    return this.#githubTokens.split(',');
+    return this.#githubTokens.split(',').filter(Boolean);
+  }
+
+  get githubUsernames(): string[] {
+    return this.#githubUsernames.split(',').map(u => u.trim());
   }
 
   get githubUsername(): string {
-    return this.#githubUsername;
+    return this.githubUsernames[0];
   }
 
   get generatedDir(): string {
@@ -52,8 +57,16 @@ export class Config {
   validate(): void {
     if (!this.#githubTokens) {
       throw new ConfigError(ERROR_MESSAGES.NO_TOKEN, {
-        username: this.#githubUsername,
+        username: this.githubUsername,
       });
+    }
+
+    const tokens = this.githubTokens;
+    const usernames = this.githubUsernames;
+    if (tokens.length !== usernames.length) {
+      throw new ConfigError(
+        `GH_STATS_TOKENS has ${tokens.length} token(s) but GH_USERNAMES has ${usernames.length} username(s). They must match.`,
+      );
     }
   }
 }

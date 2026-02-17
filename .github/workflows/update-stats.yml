@@ -57,7 +57,7 @@ jobs:
       - name: Generate stats
         env:
           GH_STATS_TOKENS: ${{ secrets.GH_STATS_TOKENS }}
-          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+          GH_USERNAMES: ${{ secrets.GH_USERNAMES }}
         run: pnpm generate
 
       - name: Commit and push if changed
