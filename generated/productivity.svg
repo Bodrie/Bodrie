@@ -318,7 +318,7 @@
         </line>
       
         <line x1="133.0" y1="240.0" 
-              x2="95.5" y2="261.7" 
+              x2="94.8" y2="262.1" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.48s">
         </line>
