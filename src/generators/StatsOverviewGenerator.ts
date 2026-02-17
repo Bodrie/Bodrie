@@ -218,10 +218,10 @@ export class StatsOverviewGenerator extends SVGGenerator {
   }
 
   #generateBottomSection(): string {
-    const last26Weeks = this.#stats.contributionGraph.slice(-182);
+    const last36Weeks = this.#stats.contributionGraph.slice(-252);
     const weeks: ContributionDay[][] = [];
-    for (let i = 0; i < last26Weeks.length; i += 7) {
-      weeks.push(last26Weeks.slice(i, i + 7));
+    for (let i = 0; i < last36Weeks.length; i += 7) {
+      weeks.push(last36Weeks.slice(i, i + 7));
     }
 
     const cellSize = 11;
@@ -249,7 +249,7 @@ export class StatsOverviewGenerator extends SVGGenerator {
         
         <!-- Heatmap Container -->
         <g>
-          <text x="55" y="375" class="heatmap-lbl">Recent Activity (26 Weeks)</text>
+          <text x="55" y="375" class="heatmap-lbl">Recent Activity (36 Weeks)</text>
           ${heatmapSVG}
         </g>
 
