@@ -26,7 +26,7 @@ const socialLinks: SocialLink[] = [
   },
   {
     name: 'GitHub',
-    url: 'https://github.com/petarzarkov',
+    url: 'https://github.com/Bodrie',
     icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg',
     height: 30,
   },

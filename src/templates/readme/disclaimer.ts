@@ -5,5 +5,6 @@ export function generateDisclaimerNote(): string {
     </p>
     <a href="https://github.com/petarzarkov" target="_blank">
         <img align="center" src="https://avatars.githubusercontent.com/u/46219231?v=4" alt="pepe" height="40" width="40" />
+        <img align="center" src="https://img.shields.io/badge/Petar%20Zarkov-blue?logo=github&style=for-the-badge" />
     </a>`;
 }
