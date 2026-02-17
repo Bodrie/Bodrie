@@ -16,7 +16,7 @@ Check out the auto generated github pages as well
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" />
   </a>
   <a href="mailto:kirov0407@gmail.com" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="30"  />
+    <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="30"  />
   </a>
   <a href="mailto:dobromir.kirov@proton.me" target="_blank">
     <img align="center" src="https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge" alt="proton" height="30"  />
