@@ -15,9 +15,9 @@ export function generateIndexHTML(stats: GitHubStats): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GitHub profile and statistics for Petar Zarkov">
+  <meta name="description" content="GitHub profile and statistics for Dobromir Kirov (Bodrie)">
   <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/${stats.userId}?v=4">
-  <title>Hi, I'm Petar Zarkov</title>
+  <title>Hi, I'm Dobromir Kirov (Bodrie)</title>
   <style>
     * {
       margin: 0;
@@ -147,7 +147,7 @@ export function generateIndexHTML(stats: GitHubStats): string {
 <body>
   <div class="container">
     <header>
-      <h1>Hi <img src="public/webp/peepoHey.webp" alt="Hi" width="30" height="30" style="vertical-align: middle;" />, I'm Petar Zarkov</h1>
+      <h1>Hi <img src="public/webp/peepoHey.webp" alt="Hi" width="30" height="30" style="vertical-align: middle;" />, I'm Dobromir Kirov (Bodrie)</h1>
       <p class="subtitle">A passionate software developer from Bulgaria</p>
     </header>
     
@@ -175,7 +175,7 @@ export function generateIndexHTML(stats: GitHubStats): string {
     </main>
     
     <footer>
-      <p>© ${new Date().getFullYear()} Petar Zarkov. Auto-generated with ❤️ using TypeScript & GitHub Actions.</p>
+      <p>© ${new Date().getFullYear()} Dobromir Kirov (Bodrie). Auto-generated with ❤️ using TypeScript & GitHub Actions.</p>
     </footer>
   </div>
 </body>
