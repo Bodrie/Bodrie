@@ -8,32 +8,20 @@ export interface SocialLink {
 const socialLinks: SocialLink[] = [
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/☕-petar-zarkov-7989a670',
+    url: 'https://www.linkedin.com/in/d-kirov/',
     icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg',
     height: 30,
   },
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/flaeryw',
-    icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg',
-    height: 30,
-  },
-  {
-    name: 'YouTube',
-    url: 'https://www.youtube.com/@RustBeats',
-    icon: 'https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg',
-    height: 30,
-  },
-  {
-    name: 'Portfolio',
-    url: 'http://petarzarkov.com/',
-    icon: 'https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=react&logoColor=white',
-    height: 30,
-  },
-  {
-    name: 'Email',
-    url: 'mailto:pzarko1@gmail.com',
+    name: 'Gmail',
+    url: 'mailto:kirov0407@gmail.com',
     icon: 'https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white',
+    height: 30,
+  },
+  {
+    name: 'Proton',
+    url: 'mailto:dobromir.kirov@proton.me',
+    icon: 'https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge',
     height: 30,
   },
   {
@@ -43,6 +31,8 @@ const socialLinks: SocialLink[] = [
     height: 30,
   },
 ];
+
+//
 
 export function generateConnect(): string {
   const links = socialLinks
