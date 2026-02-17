@@ -6,7 +6,7 @@
   <img src="https://komarev.com/ghpvc/?username=petarzarkov&label=Profile%20views&color=0e75b6&style=flat" alt="petarzarkov" />
 </p>
 
-<a href="https://petarzarkov.github.io/petarzarkov/" target="_blank">
+<a href="https://Bodrie.github.io/Bodrie/" target="_blank">
 Check out the auto generated github pages as well
 </a>
 
