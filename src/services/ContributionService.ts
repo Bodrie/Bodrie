@@ -5,6 +5,7 @@ import type {
   GraphQLContributionsResponse,
 } from '../types.js';
 import { GitHubClient } from '../core/GitHubClient.js';
+import { DATE_RANGES } from '../constants/constants.js';
 
 /**
  * Handles contribution graph parsing and streak calculations
@@ -22,13 +23,13 @@ export class ContributionService {
   async fetchUserContributions(): Promise<UserContributions> {
     console.log('  Fetching contributions (including private)...');
 
-    // Calculate date range for last 365 days (matching GitHub's profile view)
+    // Calculate date range for last 1000 days (matching GitHub's profile view)
     const today = new Date();
-    const oneYearAgo = new Date(today);
-    oneYearAgo.setDate(today.getDate() - 365); // Exactly 365 days ago
+    const rangeOfDaysInPast = new Date(today);
+    rangeOfDaysInPast.setDate(today.getDate() - DATE_RANGES.CONTRIBUTION_DAYS); // Exactly 1000 days ago
 
     // Format dates as ISO strings (GitHub expects YYYY-MM-DDTHH:MM:SSZ)
-    const from = oneYearAgo.toISOString();
+    const from = rangeOfDaysInPast.toISOString();
     const to = today.toISOString();
 
     console.log(

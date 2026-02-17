@@ -42,8 +42,8 @@ export class StatsAggregator {
 
     // Calculate date range for last 365 days
     const today = new Date();
-    const oneYearAgo = new Date(today);
-    oneYearAgo.setDate(today.getDate() - DATE_RANGES.CONTRIBUTION_DAYS);
+    const rangeOfDaysInPast = new Date(today);
+    rangeOfDaysInPast.setDate(today.getDate() - DATE_RANGES.CONTRIBUTION_DAYS);
 
     // Fetch core data in parallel
     const [userContributions, repos, user] = await Promise.all([
@@ -66,7 +66,7 @@ export class StatsAggregator {
           this.#contributionService.parseContributionGraph(userContributions),
         ),
         this.#repositoryService.getTopRepositories(repos),
-        this.#commitService.fetchAllCommits(repos, oneYearAgo, today),
+        this.#commitService.fetchAllCommits(repos, rangeOfDaysInPast, today),
       ]);
 
     // Calculate additional stats
@@ -138,7 +138,7 @@ export class StatsAggregator {
     return {
       username: this.#githubClient.user,
       userId: user.id,
-      periodStart: oneYearAgo.toISOString().split('T')[0],
+      periodStart: rangeOfDaysInPast.toISOString().split('T')[0],
       periodEnd: today.toISOString().split('T')[0],
       totalCommits: userContributions.totalCommitContributions,
       totalPRs: userContributions.totalPullRequestContributions,
