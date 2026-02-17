@@ -14,7 +14,7 @@
       
         @keyframes slide-right-0 {
           from { width: 0; }
-          to { width: 468.10px; }
+          to { width: 468.04px; }
         }
         .bar-0 {
           animation: slide-right-0 1s cubic-bezier(0.2, 0, 0.2, 1) 0.2s forwards;
@@ -26,7 +26,7 @@
       
         @keyframes slide-right-1 {
           from { width: 0; }
-          to { width: 95.74px; }
+          to { width: 95.72px; }
         }
         .bar-1 {
           animation: slide-right-1 1s cubic-bezier(0.2, 0, 0.2, 1) 0.30000000000000004s forwards;
@@ -38,7 +38,7 @@
       
         @keyframes slide-right-2 {
           from { width: 0; }
-          to { width: 57.97px; }
+          to { width: 57.96px; }
         }
         .bar-2 {
           animation: slide-right-2 1s cubic-bezier(0.2, 0, 0.2, 1) 0.4s forwards;
@@ -50,7 +50,7 @@
       
         @keyframes slide-right-3 {
           from { width: 0; }
-          to { width: 54.19px; }
+          to { width: 54.18px; }
         }
         .bar-3 {
           animation: slide-right-3 1s cubic-bezier(0.2, 0, 0.2, 1) 0.5s forwards;
@@ -62,7 +62,7 @@
       
         @keyframes slide-right-4 {
           from { width: 0; }
-          to { width: 30.50px; }
+          to { width: 30.62px; }
         }
         .bar-4 {
           animation: slide-right-4 1s cubic-bezier(0.2, 0, 0.2, 1) 0.6000000000000001s forwards;
@@ -86,7 +86,7 @@
       
         @keyframes slide-right-6 {
           from { width: 0; }
-          to { width: 2.57px; }
+          to { width: 2.56px; }
         }
         .bar-6 {
           animation: slide-right-6 1s cubic-bezier(0.2, 0, 0.2, 1) 0.8s forwards;
@@ -243,7 +243,7 @@
           <text x="46" y="0" class="lang-lines fade-2">904 lines</text>
           
           <!-- Right: Percentage -->
-          <text x="720" y="0" text-anchor="end" class="lang-percent fade-2">8.1%</text>
+          <text x="720" y="0" text-anchor="end" class="lang-percent fade-2">8.0%</text>
 
           <!-- Row 2: Progress Bar -->
           <!-- Track (Background) -->
@@ -276,10 +276,10 @@
           <!-- Row 1: Text Labels (Above Bar) -->
           <!-- Left: Language Name + Lines -->
           <text x="0" y="0" class="lang-name fade-4">HTML</text>
-          <text x="46" y="0" class="lang-lines fade-4">476 lines</text>
+          <text x="46" y="0" class="lang-lines fade-4">477 lines</text>
           
           <!-- Right: Percentage -->
-          <text x="720" y="0" text-anchor="end" class="lang-percent fade-4">4.2%</text>
+          <text x="720" y="0" text-anchor="end" class="lang-percent fade-4">4.3%</text>
 
           <!-- Row 2: Progress Bar -->
           <!-- Track (Background) -->
@@ -287,7 +287,7 @@
           
           <!-- Filled Bar -->
           <rect x="0" y="12" width="0" height="12" rx="6" fill="#e34c26" class="bar-4">
-             <title>HTML: 476 lines</title>
+             <title>HTML: 477 lines</title>
           </rect>
         </g>
         <g transform="translate(40, 340)">
