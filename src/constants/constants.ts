@@ -56,7 +56,7 @@ export const MESSAGES = {
   STATS_UPDATED: '\n✨ Your stats are now up to date!',
   ERROR_PREFIX: '\n❌ Error generating stats:',
   CONFIG_ERROR: '❌ Error:',
-  CONFIG_ERROR_EXAMPLE: '   Example: GITHUB_TOKEN=ghp_xxxxxxxxxxxx',
+  CONFIG_ERROR_EXAMPLE: '   Example: GH_STATS_TOKENS=ghp_xxxxxxxxxxxx',
   FETCHING_STATS: '📊 Fetching GitHub stats...',
   SVG_STATS_OVERVIEW: '  ✓ Generated stats-overview.svg',
   SVG_LANGUAGES: '  ✓ Generated languages.svg',
@@ -67,5 +67,5 @@ export const MESSAGES = {
  */
 export const ERROR_MESSAGES = {
   NO_TOKEN:
-    'GITHUB_TOKEN is not set in environment variables. Please create a .env file with your GitHub Personal Access Token.',
+    'GH_STATS_TOKENS is not set in environment variables. Please create a .env file with your GitHub Personal Access Token.',
 } as const;

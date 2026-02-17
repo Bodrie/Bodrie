@@ -15,8 +15,8 @@ export class Config {
   #indexPath: string;
 
   private constructor() {
-    this.#githubToken = process.env.GITHUB_TOKEN || '';
-    this.#githubUsername = process.env.GITHUB_USERNAME || DEFAULTS.USERNAME;
+    this.#githubToken = process.env.GH_STATS_TOKENS || '';
+    this.#githubUsername = process.env.GH_USERNAME || DEFAULTS.USERNAME;
     this.#generatedDir = PATHS.GENERATED_DIR;
     this.#readmePath = PATHS.README;
     this.#indexPath = PATHS.INDEX_HTML;

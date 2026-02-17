@@ -39,8 +39,8 @@ cp .env.example .env
 Edit `.env` and add your token:
 
 ```env
-GITHUB_TOKEN=ghp_your_token_here
-GITHUB_USERNAME=petarzarkov
+GH_STATS_TOKENS=ghp_your_token_here
+GH_USERNAME=petarzarkov
 ```
 
 ### 4. Configure GitHub Repository Secrets
