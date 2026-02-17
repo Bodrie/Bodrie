@@ -101,12 +101,10 @@ Check out the auto generated github pages as well
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
 </p>
 
-    <h3 align="left">❗Disclaimer:</h3>
-
+<h3 align="left">❗Disclaimer:</h3>
     <p align="left">
         This repository / template is provided by Petar Zarkov
     </p>
-
     <a href="https://github.com/petarzarkov" target="_blank">
         <img align="center" src="https://avatars.githubusercontent.com/u/46219231?v=4" alt="pepe" height="40" width="40" />
     </a>
