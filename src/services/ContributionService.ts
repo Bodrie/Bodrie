@@ -19,25 +19,66 @@ export class ContributionService {
 
   /**
    * Fetch user contributions via GraphQL
+   * GitHub's API limits queries to 1 year, so we split into yearly chunks and merge.
    */
   async fetchUserContributions(): Promise<UserContributions> {
     console.log('  Fetching contributions (including private)...');
 
-    // Calculate date range for last 1000 days (matching GitHub's profile view)
     const today = new Date();
-    const rangeOfDaysInPast = new Date(today);
-    rangeOfDaysInPast.setDate(today.getDate() - DATE_RANGES.CONTRIBUTION_DAYS); // Exactly 1000 days ago
+    const rangeStart = new Date(today);
+    rangeStart.setDate(today.getDate() - DATE_RANGES.CONTRIBUTION_DAYS);
 
-    // Format dates as ISO strings (GitHub expects YYYY-MM-DDTHH:MM:SSZ)
-    const from = rangeOfDaysInPast.toISOString();
-    const to = today.toISOString();
+    // Build yearly chunks (GitHub API max span is 1 year)
+    const chunks: { from: Date; to: Date }[] = [];
+    let chunkStart = new Date(rangeStart);
+    while (chunkStart < today) {
+      const chunkEnd = new Date(chunkStart);
+      chunkEnd.setFullYear(chunkEnd.getFullYear() + 1);
+      chunks.push({
+        from: new Date(chunkStart),
+        to: chunkEnd > today ? new Date(today) : chunkEnd,
+      });
+      chunkStart = new Date(chunkEnd);
+    }
 
     console.log(
-      `  📅 Querying contributions from ${from.split('T')[0]} to ${
-        to.split('T')[0]
-      }`,
+      `  📅 Querying contributions from ${rangeStart.toISOString().split('T')[0]} to ${today.toISOString().split('T')[0]} (${chunks.length} request(s))`,
     );
 
+    const results = await Promise.all(
+      chunks.map(chunk => this.#fetchContributionChunk(chunk.from, chunk.to)),
+    );
+
+    // Merge all chunks into one UserContributions
+    const merged = results.reduce((acc, curr) =>
+      this.#mergeContributions(acc, curr),
+    );
+
+    console.log(
+      `  📊 Contribution breakdown (${rangeStart.toISOString().split('T')[0]} to ${today.toISOString().split('T')[0]}):`,
+    );
+    console.log(`     - Commits: ${merged.totalCommitContributions}`);
+    console.log(`     - PRs: ${merged.totalPullRequestContributions}`);
+    console.log(
+      `     - Reviews: ${merged.totalPullRequestReviewContributions}`,
+    );
+    console.log(`     - Issues: ${merged.totalIssueContributions}`);
+    console.log(`     - Repos: ${merged.totalRepositoryContributions}`);
+    console.log(`     - Restricted: ${merged.restrictedContributionsCount}`);
+    console.log(
+      `     - Calendar Total: ${merged.contributionCalendar.totalContributions}`,
+    );
+
+    return merged;
+  }
+
+  /**
+   * Fetch a single chunk of contributions (max 1 year span)
+   */
+  async #fetchContributionChunk(
+    from: Date,
+    to: Date,
+  ): Promise<UserContributions> {
     const query = `
       query($username: String!, $from: DateTime!, $to: DateTime!) {
         user(login: $username) {
@@ -66,33 +107,72 @@ export class ContributionService {
 
     const result = (await this.#githubClient.graphql(query, {
       username: this.#githubClient.user,
-      from,
-      to,
+      from: from.toISOString(),
+      to: to.toISOString(),
     })) as GraphQLContributionsResponse;
 
-    const contributions = result.user.contributionsCollection;
+    return result.user.contributionsCollection;
+  }
 
-    // Debug: Log contribution breakdown
-    console.log(
-      `  📊 Contribution breakdown (${from.split('T')[0]} to ${
-        to.split('T')[0]
-      }):`,
-    );
-    console.log(`     - Commits: ${contributions.totalCommitContributions}`);
-    console.log(`     - PRs: ${contributions.totalPullRequestContributions}`);
-    console.log(
-      `     - Reviews: ${contributions.totalPullRequestReviewContributions}`,
-    );
-    console.log(`     - Issues: ${contributions.totalIssueContributions}`);
-    console.log(`     - Repos: ${contributions.totalRepositoryContributions}`);
-    console.log(
-      `     - Restricted: ${contributions.restrictedContributionsCount}`,
-    );
-    console.log(
-      `     - Calendar Total: ${contributions.contributionCalendar.totalContributions}`,
+  /**
+   * Merge two UserContributions objects (sum totals, concatenate calendar days)
+   */
+  #mergeContributions(
+    a: UserContributions,
+    b: UserContributions,
+  ): UserContributions {
+    // Deduplicate calendar days by date (later chunk wins on overlap)
+    const dayMap = new Map<
+      string,
+      { date: string; contributionCount: number; contributionLevel: string }
+    >();
+    for (const week of a.contributionCalendar.weeks) {
+      for (const day of week.contributionDays) {
+        dayMap.set(day.date, day);
+      }
+    }
+    for (const week of b.contributionCalendar.weeks) {
+      for (const day of week.contributionDays) {
+        dayMap.set(day.date, day);
+      }
+    }
+
+    const allDays = Array.from(dayMap.values()).sort(
+      (x, y) => new Date(x.date).getTime() - new Date(y.date).getTime(),
     );
 
-    return contributions;
+    // Group days into weeks (7 days each)
+    const weeks: {
+      contributionDays: typeof allDays;
+    }[] = [];
+    for (let i = 0; i < allDays.length; i += 7) {
+      weeks.push({ contributionDays: allDays.slice(i, i + 7) });
+    }
+
+    return {
+      totalCommitContributions:
+        a.totalCommitContributions + b.totalCommitContributions,
+      totalIssueContributions:
+        a.totalIssueContributions + b.totalIssueContributions,
+      totalPullRequestContributions:
+        a.totalPullRequestContributions + b.totalPullRequestContributions,
+      totalPullRequestReviewContributions:
+        a.totalPullRequestReviewContributions +
+        b.totalPullRequestReviewContributions,
+      totalRepositoryContributions:
+        a.totalRepositoryContributions + b.totalRepositoryContributions,
+      totalRepositoriesWithContributedCommits:
+        a.totalRepositoriesWithContributedCommits +
+        b.totalRepositoriesWithContributedCommits,
+      restrictedContributionsCount:
+        a.restrictedContributionsCount + b.restrictedContributionsCount,
+      contributionCalendar: {
+        totalContributions:
+          a.contributionCalendar.totalContributions +
+          b.contributionCalendar.totalContributions,
+        weeks,
+      },
+    };
   }
 
   /**
