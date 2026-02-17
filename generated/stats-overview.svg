@@ -135,7 +135,7 @@
           <!-- Total Contributions -->
           <g>
             <text x="0" y="0" class="hero-lbl">Total Contributions</text>
-            <text x="0" y="35" class="hero-val">1,962</text>
+            <text x="0" y="35" class="hero-val">1,964</text>
           </g>
           
           <!-- Vertical Divider -->
@@ -164,8 +164,8 @@
             <!-- Value & Label -->
             <g transform="translate(16, 28)">
               <text y="0" class="card-label" fill="#3b82f6">Commits</text>
-              <text y="24" class="card-value">1,312</text>
-              <text y="38" class="card-sub" opacity="0.7">67.52%</text>
+              <text y="24" class="card-value">1,314</text>
+              <text y="38" class="card-sub" opacity="0.7">67.56%</text>
             </g>
           </g>
         </g>
@@ -184,7 +184,7 @@
             <g transform="translate(16, 28)">
               <text y="0" class="card-label" fill="#10b981">Pull Requests</text>
               <text y="24" class="card-value">355</text>
-              <text y="38" class="card-sub" opacity="0.7">18.27%</text>
+              <text y="38" class="card-sub" opacity="0.7">18.25%</text>
             </g>
           </g>
         </g>
@@ -203,7 +203,7 @@
             <g transform="translate(16, 28)">
               <text y="0" class="card-label" fill="#8b5cf6">Code Reviews</text>
               <text y="24" class="card-value">195</text>
-              <text y="38" class="card-sub" opacity="0.7">10.04%</text>
+              <text y="38" class="card-sub" opacity="0.7">10.03%</text>
             </g>
           </g>
         </g>
@@ -222,7 +222,7 @@
             <g transform="translate(16, 28)">
               <text y="0" class="card-label" fill="#f59e0b">Issues</text>
               <text y="24" class="card-value">81</text>
-              <text y="38" class="card-sub" opacity="0.7">4.17%</text>
+              <text y="38" class="card-sub" opacity="0.7">4.16%</text>
             </g>
           </g>
         </g>
@@ -317,7 +317,7 @@
         <!-- Mini Stats Right Side -->
         <g transform="translate(550, 380)">
            <text x="0" y="0" class="card-label">Average</text>
-           <text x="0" y="25" class="card-value">3.47 / day</text>
+           <text x="0" y="25" class="card-value">3.48 / day</text>
            
            <text x="0" y="60" class="card-label">Contributed To</text>
            <text x="0" y="85" class="card-value">31 Repos</text>

@@ -11,20 +11,20 @@ Check out the auto generated github pages as well
 </a>
 
 <h3 align="left">📬 Connect with Me:</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/d-kirov/" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDYzIDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnoiLz48L3N2Zz4=" alt="linkedin" height="30" width="40" />
-  </a>
-  <a href="mailto:kirov0407@gmail.com" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="30"  />
-  </a>
-  <a href="mailto:dobromir.kirov@proton.me" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge" alt="proton" height="30"  />
-  </a>
-  <a href="https://github.com/Bodrie" target="_blank">
-    <img align="center" src="https://img.shields.io/badge/github-gray?style=for-the-badge&logo=github" alt="github" height="30"  />
-  </a>
-</p>
+            <p align="left">
+              <a href="https://www.linkedin.com/in/d-kirov/" target="_blank">
+          <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDYzIDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnoiLz48L3N2Zz4=" alt="linkedin" height="undefined" width="40" />
+        </a>
+<a href="mailto:kirov0407@gmail.com" target="_blank">
+          <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" height="30"  />
+        </a>
+<a href="mailto:dobromir.kirov@proton.me" target="_blank">
+          <img align="center" src="https://img.shields.io/badge/proton-d2c7ef?logo=proton&style=for-the-badge" alt="proton" height="30"  />
+        </a>
+<a href="https://github.com/Bodrie" target="_blank">
+          <img align="center" src="https://img.shields.io/badge/github-gray?style=for-the-badge&logo=github" alt="github" height="30"  />
+        </a>
+            </p>
 
 <!-- STATS:START -->
 <p>
