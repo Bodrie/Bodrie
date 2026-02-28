@@ -140,62 +140,62 @@
       <g transform="translate(20, 0)">
         
       
-        <path d="M 240 103 L 240 85 A 85 85 0 0 1 318.5540692481702 137.53065746656267 L 301.91908987796944 144.4065182383494 A 67 67 0 0 0 240 103 Z" fill="#fbbf24" stroke="#0d1117" stroke-width="2"
+        <path d="M 240 103 L 240 85 A 85 85 0 0 1 316.57110071335785 133.09652407232068 L 300.3560440917056 140.9113777981822 A 67 67 0 0 0 240 103 Z" fill="#fbbf24" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0s">
           <title>Monday: 394</title>
         </path>
       
-        <path d="M 301.91908987796944 144.4065182383494 L 318.5540692481702 137.53065746656267 A 85 85 0 0 1 277.56602452222427 246.24823802289234 L 269.6108663881062 230.1015523239269 A 67 67 0 0 0 301.91908987796944 144.4065182383494 Z" fill="#34d399" stroke="#0d1117" stroke-width="2"
+        <path d="M 300.3560440917056 140.9113777981822 L 316.57110071335785 133.09652407232068 A 85 85 0 0 1 287.1416979427215 240.72948688543704 L 277.15875014308637 225.75147789793272 A 67 67 0 0 0 300.3560440917056 140.9113777981822 Z" fill="#34d399" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.05s">
           <title>Tuesday: 503</title>
         </path>
       
-        <path d="M 269.6108663881062 230.1015523239269 L 277.56602452222427 246.24823802289234 A 85 85 0 0 1 183.50290681295883 233.50652298319272 L 195.4669971349205 220.05808282204603 A 67 67 0 0 0 269.6108663881062 230.1015523239269 Z" fill="#60a5fa" stroke="#0d1117" stroke-width="2"
+        <path d="M 277.15875014308637 225.75147789793272 L 287.1416979427215 240.72948688543704 A 85 85 0 0 1 185.8693200168054 235.5352537536628 L 197.33228754265838 221.65720001759303 A 67 67 0 0 0 277.15875014308637 225.75147789793272 Z" fill="#60a5fa" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.1s">
-          <title>Wednesday: 396</title>
+          <title>Wednesday: 449</title>
         </path>
       
-        <path d="M 195.4669971349205 220.05808282204603 L 183.50290681295883 233.50652298319272 A 85 85 0 0 1 155.25706192101356 163.39436257874613 L 173.20262527891657 164.79320344442343 A 67 67 0 0 0 195.4669971349205 220.05808282204603 Z" fill="#818cf8" stroke="#0d1117" stroke-width="2"
+        <path d="M 197.33228754265838 221.65720001759303 L 185.8693200168054 235.5352537536628 A 85 85 0 0 1 155.26512097017297 163.29177551057083 L 173.20897770590102 164.7123406965676 A 67 67 0 0 0 197.33228754265838 221.65720001759303 Z" fill="#818cf8" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.15000000000000002s">
-          <title>Thursday: 308</title>
+          <title>Thursday: 337</title>
         </path>
       
-        <path d="M 173.20262527891657 164.79320344442343 L 155.25706192101356 163.39436257874613 A 85 85 0 0 1 209.42004460974636 90.69132249034728 L 215.8957998688589 107.48610125709726 A 67 67 0 0 0 173.20262527891657 164.79320344442343 Z" fill="#a78bfa" stroke="#0d1117" stroke-width="2"
+        <path d="M 173.20897770590102 164.7123406965676 L 155.26512097017297 163.29177551057083 A 85 85 0 0 1 210.83987398579808 90.15836267437983 L 217.0149594946879 107.06600351980528 A 67 67 0 0 0 173.20897770590102 164.7123406965676 Z" fill="#a78bfa" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.2s">
-          <title>Friday: 376</title>
+          <title>Friday: 401</title>
         </path>
       
-        <path d="M 215.8957998688589 107.48610125709726 L 209.42004460974636 90.69132249034728 A 85 85 0 0 1 220.59017604059417 87.2457932557814 L 224.700491702586 104.77021350749827 A 67 67 0 0 0 215.8957998688589 107.48610125709726 Z" fill="#fb7185" stroke="#0d1117" stroke-width="2"
+        <path d="M 217.0149594946879 107.06600351980528 L 210.83987398579808 90.15836267437983 A 85 85 0 0 1 221.51568857313404 87.03416226497419 L 225.43001334588212 104.60339849121495 A 67 67 0 0 0 217.0149594946879 107.06600351980528 Z" fill="#fb7185" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.25s">
           <title>Saturday: 46</title>
         </path>
       
-        <path d="M 224.700491702586 104.77021350749827 L 220.59017604059417 87.2457932557814 A 85 85 0 0 1 239.99999999999991 85 L 239.99999999999991 103 A 67 67 0 0 0 224.700491702586 104.77021350749827 Z" fill="#f472b6" stroke="#0d1117" stroke-width="2"
+        <path d="M 225.43001334588212 104.60339849121495 L 221.51568857313404 87.03416226497419 A 85 85 0 0 1 239.99999999999997 85 L 240 103 A 67 67 0 0 0 225.43001334588212 104.60339849121495 Z" fill="#f472b6" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.30000000000000004s">
           <title>Sunday: 77</title>
         </path>
       
       
-      <text x="240" y="165" text-anchor="middle" class="chart-value">2,100</text>
+      <text x="240" y="165" text-anchor="middle" class="chart-value">2,207</text>
       <text x="240" y="185" text-anchor="middle" class="chart-sub">Contributions</text>
     
       
         <g transform="translate(30, 280)">
           <rect width="10" height="10" rx="3" fill="#fbbf24" />
           <text x="16" y="9" class="legend-key">Monday</text>
-          <text x="105" y="9" text-anchor="end" class="legend-val">19%</text>
+          <text x="105" y="9" text-anchor="end" class="legend-val">18%</text>
         </g>
       
         <g transform="translate(155, 280)">
           <rect width="10" height="10" rx="3" fill="#34d399" />
           <text x="16" y="9" class="legend-key">Tuesday</text>
-          <text x="105" y="9" text-anchor="end" class="legend-val">24%</text>
+          <text x="105" y="9" text-anchor="end" class="legend-val">23%</text>
         </g>
       
         <g transform="translate(30, 300)">
           <rect width="10" height="10" rx="3" fill="#60a5fa" />
           <text x="16" y="9" class="legend-key">Wednesday</text>
-          <text x="105" y="9" text-anchor="end" class="legend-val">19%</text>
+          <text x="105" y="9" text-anchor="end" class="legend-val">20%</text>
         </g>
       
         <g transform="translate(155, 300)">
@@ -219,13 +219,13 @@
         <g transform="translate(30, 340)">
           <rect width="10" height="10" rx="3" fill="#f472b6" />
           <text x="16" y="9" class="legend-key">Sunday</text>
-          <text x="105" y="9" text-anchor="end" class="legend-val">4%</text>
+          <text x="105" y="9" text-anchor="end" class="legend-val">3%</text>
         </g>
       
       
       <g transform="translate(30, 110)">
          <text class="chart-sub" y="0">Avg / Day</text>
-         <text class="chart-value" y="25" font-size="20">2.1</text>
+         <text class="chart-value" y="25" font-size="20">2.2</text>
          
          <text class="chart-sub" y="60">Most Active</text>
          <text class="chart-value" y="85" font-size="20" fill="#34d399">Tuesday</text>
@@ -264,43 +264,43 @@
         </line>
       
         <line x1="243.0" y1="225.5" 
-              x2="257.6" y2="229.5" 
+              x2="258.5" y2="229.7" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.21s">
         </line>
       
         <line x1="237.0" y1="240.0" 
-              x2="252.6" y2="249.0" 
+              x2="252.5" y2="249.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.24s">
         </line>
       
         <line x1="227.4" y1="252.4" 
-              x2="242.2" y2="267.2" 
+              x2="243.3" y2="268.3" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.27s">
         </line>
       
         <line x1="215.0" y1="262.0" 
-              x2="228.4" y2="285.1" 
+              x2="230.1" y2="288.1" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.3s">
         </line>
       
         <line x1="200.5" y1="268.0" 
-              x2="214.4" y2="319.5" 
+              x2="214.2" y2="318.8" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.32999999999999996s">
         </line>
       
         <line x1="185.0" y1="270.0" 
-              x2="185.0" y2="313.3" 
+              x2="185.0" y2="322.7" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.36s">
         </line>
       
         <line x1="169.5" y1="268.0" 
-              x2="155.8" y2="318.8" 
+              x2="154.8" y2="322.5" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.39s">
         </line>
@@ -312,55 +312,55 @@
         </line>
       
         <line x1="142.6" y1="252.4" 
-              x2="105.3" y2="289.7" 
+              x2="109.0" y2="286.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.44999999999999996s">
         </line>
       
         <line x1="133.0" y1="240.0" 
-              x2="93.7" y2="262.7" 
+              x2="96.9" y2="260.9" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.48s">
         </line>
       
         <line x1="127.0" y1="225.5" 
-              x2="111.0" y2="229.8" 
+              x2="112.8" y2="229.4" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.51s">
         </line>
       
         <line x1="125.0" y1="210.0" 
-              x2="104.8" y2="210.0" 
+              x2="107.0" y2="210.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.54s">
         </line>
       
         <line x1="127.0" y1="194.5" 
-              x2="115.9" y2="191.5" 
+              x2="111.5" y2="190.3" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.57s">
         </line>
       
         <line x1="133.0" y1="180.0" 
-              x2="122.4" y2="173.9" 
+              x2="120.2" y2="172.6" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6s">
         </line>
       
         <line x1="142.6" y1="167.6" 
-              x2="131.3" y2="156.3" 
+              x2="131.7" y2="156.7" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.63s">
         </line>
       
         <line x1="155.0" y1="158.0" 
-              x2="147.1" y2="144.3" 
+              x2="147.9" y2="145.8" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6599999999999999s">
         </line>
       
         <line x1="169.5" y1="152.0" 
-              x2="166.7" y2="141.6" 
+              x2="167.0" y2="142.7" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.69s">
         </line>
