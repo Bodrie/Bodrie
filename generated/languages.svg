@@ -250,7 +250,7 @@
           <rect x="0" y="12" width="720" height="12" rx="6" fill="#30363d" opacity="0.2"/>
           
           <!-- Filled Bar -->
-          <rect x="0" y="12" width="0" height="12" rx="6" fill="#663399" class="bar-2">
+          <rect x="0" y="12" width="0" height="12" rx="6" fill="#563d7c" class="bar-2">
              <title>CSS: 941 lines</title>
           </rect>
         </g>
@@ -268,7 +268,7 @@
           <rect x="0" y="12" width="720" height="12" rx="6" fill="#30363d" opacity="0.2"/>
           
           <!-- Filled Bar -->
-          <rect x="0" y="12" width="0" height="12" rx="6" fill="#c6538c" class="bar-3">
+          <rect x="0" y="12" width="0" height="12" rx="6" fill="#858585" class="bar-3">
              <title>SCSS: 904 lines</title>
           </rect>
         </g>
