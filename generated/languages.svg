@@ -62,7 +62,7 @@
       
         @keyframes slide-right-4 {
           from { width: 0; }
-          to { width: 13.01px; }
+          to { width: 13.02px; }
         }
         .bar-4 {
           animation: slide-right-4 1s cubic-bezier(0.2, 0, 0.2, 1) 0.6000000000000001s forwards;
