@@ -258,49 +258,49 @@
         </line>
       
         <line x1="245.0" y1="210.0" 
-              x2="249.1" y2="210.0" 
+              x2="249.3" y2="210.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.18s">
         </line>
       
         <line x1="243.0" y1="225.5" 
-              x2="257.7" y2="229.5" 
+              x2="258.2" y2="229.6" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.21s">
         </line>
       
         <line x1="237.0" y1="240.0" 
-              x2="251.7" y2="248.5" 
+              x2="252.2" y2="248.8" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.24s">
         </line>
       
         <line x1="227.4" y1="252.4" 
-              x2="243.6" y2="268.6" 
+              x2="243.8" y2="268.8" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.27s">
         </line>
       
         <line x1="215.0" y1="262.0" 
-              x2="228.8" y2="285.9" 
+              x2="229.3" y2="286.7" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.3s">
         </line>
       
         <line x1="200.5" y1="268.0" 
-              x2="211.9" y2="310.6" 
+              x2="212.3" y2="312.1" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.32999999999999996s">
         </line>
       
         <line x1="185.0" y1="270.0" 
-              x2="185.0" y2="309.4" 
+              x2="185.0" y2="310.2" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.36s">
         </line>
       
         <line x1="169.5" y1="268.0" 
-              x2="156.5" y2="316.3" 
+              x2="156.1" y2="317.9" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.39s">
         </line>
@@ -312,55 +312,55 @@
         </line>
       
         <line x1="142.6" y1="252.4" 
-              x2="113.5" y2="281.5" 
+              x2="112.4" y2="282.6" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.44999999999999996s">
         </line>
       
         <line x1="133.0" y1="240.0" 
-              x2="105.0" y2="256.2" 
+              x2="104.0" y2="256.7" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.48s">
         </line>
       
         <line x1="127.0" y1="225.5" 
-              x2="114.0" y2="229.0" 
+              x2="115.3" y2="228.7" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.51s">
         </line>
       
         <line x1="125.0" y1="210.0" 
-              x2="109.1" y2="210.0" 
+              x2="109.2" y2="210.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.54s">
         </line>
       
         <line x1="127.0" y1="194.5" 
-              x2="112.8" y2="190.7" 
+              x2="112.3" y2="190.5" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.57s">
         </line>
       
         <line x1="133.0" y1="180.0" 
-              x2="121.3" y2="173.2" 
+              x2="121.4" y2="173.3" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6s">
         </line>
       
         <line x1="142.6" y1="167.6" 
-              x2="132.6" y2="157.6" 
+              x2="134.0" y2="159.0" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.63s">
         </line>
       
         <line x1="155.0" y1="158.0" 
-              x2="150.3" y2="149.9" 
+              x2="150.7" y2="150.7" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6599999999999999s">
         </line>
       
         <line x1="169.5" y1="152.0" 
-              x2="168.3" y2="147.5" 
+              x2="168.2" y2="147.3" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.69s">
         </line>
