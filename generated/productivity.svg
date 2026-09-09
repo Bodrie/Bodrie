@@ -140,43 +140,43 @@
       <g transform="translate(20, 0)">
         
       
-        <path d="M 240 103 L 240 85 A 85 85 0 0 1 308.4573781480508 119.61560383318283 L 293.9605215990518 130.28524066850883 A 67 67 0 0 0 240 103 Z" fill="#fbbf24" stroke="#0d1117" stroke-width="2"
+        <path d="M 240 103 L 240 85 A 85 85 0 0 1 309.1392113237755 120.55539000531695 L 294.49796657285833 131.02601329830867 A 67 67 0 0 0 240 103 Z" fill="#fbbf24" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0s">
           <title>Monday: 114</title>
         </path>
       
-        <path d="M 293.9605215990518 130.28524066850883 L 308.4573781480508 119.61560383318283 A 85 85 0 0 1 290.52485534155187 238.35377818903106 L 279.8254742103997 223.8788604548833 A 67 67 0 0 0 293.9605215990518 130.28524066850883 Z" fill="#34d399" stroke="#0d1117" stroke-width="2"
+        <path d="M 294.49796657285833 131.02601329830867 L 309.1392113237755 120.55539000531695 A 85 85 0 0 1 287.9936186050161 240.15420567005413 L 277.830264076895 225.29802093992504 A 67 67 0 0 0 294.49796657285833 131.02601329830867 Z" fill="#34d399" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.05s">
           <title>Tuesday: 191</title>
         </path>
       
-        <path d="M 279.8254742103997 223.8788604548833 L 290.52485534155187 238.35377818903106 A 85 85 0 0 1 179.4655324840798 229.67058104764862 L 192.2845961933335 217.03445800226422 A 67 67 0 0 0 279.8254742103997 223.8788604548833 Z" fill="#60a5fa" stroke="#0d1117" stroke-width="2"
+        <path d="M 277.830264076895 225.29802093992504 L 287.9936186050161 240.15420567005413 A 85 85 0 0 1 181.54554599745904 231.70961681346614 L 193.92413625682065 218.64169795884976 A 67 67 0 0 0 277.830264076895 225.29802093992504 Z" fill="#60a5fa" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.1s">
-          <title>Wednesday: 174</title>
+          <title>Wednesday: 163</title>
         </path>
       
-        <path d="M 192.2845961933335 217.03445800226422 L 179.4655324840798 229.67058104764862 A 85 85 0 0 1 156.96789299043394 151.8156879274477 L 174.55116271010675 155.66648342516467 A 67 67 0 0 0 192.2845961933335 217.03445800226422 Z" fill="#818cf8" stroke="#0d1117" stroke-width="2"
+        <path d="M 193.92413625682065 218.64169795884976 L 181.54554599745904 231.70961681346614 A 85 85 0 0 1 156.62462586526155 153.4607440344982 L 174.28058744673558 156.96317470954563 A 67 67 0 0 0 193.92413625682065 218.64169795884976 Z" fill="#818cf8" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.15000000000000002s">
           <title>Thursday: 121</title>
         </path>
       
-        <path d="M 174.55116271010675 155.66648342516467 L 156.96789299043394 151.8156879274477 A 85 85 0 0 1 209.94647514796944 90.49034244842717 L 216.3107509989877 107.32768169464259 A 67 67 0 0 0 174.55116271010675 155.66648342516467 Z" fill="#a78bfa" stroke="#0d1117" stroke-width="2"
+        <path d="M 174.28058744673558 156.96317470954563 L 156.62462586526155 153.4607440344982 A 85 85 0 0 1 209.52770340653026 90.64989514613347 L 215.9806603322062 107.45344676224639 A 67 67 0 0 0 174.28058744673558 156.96317470954563 Z" fill="#a78bfa" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.2s">
           <title>Friday: 121</title>
         </path>
       
-        <path d="M 216.3107509989877 107.32768169464259 L 209.94647514796944 90.49034244842717 A 85 85 0 0 1 221.98621833597227 86.93072968804447 L 225.800901511884 104.5218692835174 A 67 67 0 0 0 216.3107509989877 107.32768169464259 Z" fill="#fb7185" stroke="#0d1117" stroke-width="2"
+        <path d="M 215.9806603322062 107.45344676224639 L 209.52770340653026 90.64989514613347 A 85 85 0 0 1 221.72751258206293 86.98725276464263 L 225.59698050586138 104.5664227674242 A 67 67 0 0 0 215.9806603322062 107.45344676224639 Z" fill="#fb7185" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.25s">
           <title>Saturday: 18</title>
         </path>
       
-        <path d="M 225.800901511884 104.5218692835174 L 221.98621833597227 86.93072968804447 A 85 85 0 0 1 239.99999999999997 85 L 240 103 A 67 67 0 0 0 225.800901511884 104.5218692835174 Z" fill="#f472b6" stroke="#0d1117" stroke-width="2"
+        <path d="M 225.59698050586138 104.5664227674242 L 221.72751258206293 86.98725276464263 A 85 85 0 0 1 239.99999999999997 85 L 240 103 A 67 67 0 0 0 225.59698050586138 104.5664227674242 Z" fill="#f472b6" stroke="#0d1117" stroke-width="2"
               class="slice-anim" style="animation-delay: 0.30000000000000004s">
           <title>Sunday: 26</title>
         </path>
       
       
-      <text x="240" y="165" text-anchor="middle" class="chart-value">765</text>
+      <text x="240" y="165" text-anchor="middle" class="chart-value">754</text>
       <text x="240" y="185" text-anchor="middle" class="chart-sub">Contributions</text>
     
       
@@ -195,7 +195,7 @@
         <g transform="translate(30, 300)">
           <rect width="10" height="10" rx="3" fill="#60a5fa" />
           <text x="16" y="9" class="legend-key">Wednesday</text>
-          <text x="105" y="9" text-anchor="end" class="legend-val">23%</text>
+          <text x="105" y="9" text-anchor="end" class="legend-val">22%</text>
         </g>
       
         <g transform="translate(155, 300)">
@@ -270,7 +270,7 @@
         </line>
       
         <line x1="215.0" y1="262.0" 
-              x2="229.4" y2="286.9" 
+              x2="228.4" y2="285.2" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.3s">
         </line>
@@ -288,7 +288,7 @@
         </line>
       
         <line x1="169.5" y1="268.0" 
-              x2="156.4" y2="316.6" 
+              x2="157.3" y2="313.5" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.39s">
         </line>
@@ -324,13 +324,13 @@
         </line>
       
         <line x1="127.0" y1="194.5" 
-              x2="116.9" y2="191.8" 
+              x2="117.6" y2="191.9" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.57s">
         </line>
       
         <line x1="133.0" y1="180.0" 
-              x2="121.1" y2="173.1" 
+              x2="122.3" y2="173.8" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6s">
         </line>
