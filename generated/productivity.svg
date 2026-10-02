@@ -318,19 +318,19 @@
         </line>
       
         <line x1="125.0" y1="210.0" 
-              x2="116.3" y2="210.0" 
+              x2="119.0" y2="210.0" 
               stroke="url(#grad-day)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.54s">
         </line>
       
         <line x1="127.0" y1="194.5" 
-              x2="117.4" y2="191.9" 
+              x2="118.7" y2="192.2" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.57s">
         </line>
       
         <line x1="133.0" y1="180.0" 
-              x2="122.1" y2="173.7" 
+              x2="123.2" y2="174.3" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6s">
         </line>
@@ -339,12 +339,6 @@
               x2="139.7" y2="164.7" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.63s">
-        </line>
-      
-        <line x1="155.0" y1="158.0" 
-              x2="153.0" y2="154.6" 
-              stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
-              class="bar-anim" style="animation-delay: 0.6599999999999999s">
         </line>
       
       <text x="185" y="65" text-anchor="middle" class="chart-label">12 AM</text><text x="340" y="214" text-anchor="middle" class="chart-label">6 AM</text><text x="185" y="360" text-anchor="middle" class="chart-label">12 PM</text><text x="30" y="214" text-anchor="middle" class="chart-label">6 PM</text>
