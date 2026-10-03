@@ -330,7 +330,7 @@
         </line>
       
         <line x1="133.0" y1="180.0" 
-              x2="123.2" y2="174.3" 
+              x2="123.8" y2="174.7" 
               stroke="url(#grad-night)" stroke-width="5" stroke-linecap="round" 
               class="bar-anim" style="animation-delay: 0.6s">
         </line>
